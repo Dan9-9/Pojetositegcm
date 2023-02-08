@@ -1,0 +1,106 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    color: rgb(189, 181, 181);
+    background-color: rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/*.wapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.wapper h1 {
+    text-align: center;
+    margin: 60px 0 40px 0;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.lista-item {
+    background: rgb(77, 75, 75);
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 6px;
+}
+
+.conteudo-titulo {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.4em;
+    font-family: monospace;
+}
+
+.faq-conteudo {
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: .875em;
+    line-height: 1.4em;
+    display: none;
+}
+
+.trigger-input {
+    display: none;
+}*/
+
+.h3 {
+    margin: 20px;
+    color: rgb(253, 244, 244);
+    margin-left: 20px;
+    background-color: #555;
+    padding: 2px;
+    text-align: center;
+    font-size: 16pt;
+}
+
+section.container {
+    border: 4px solid gray;
+    padding: 15px;
+    cursor: pointer;
+    margin: 3px;
+    
+}
+
+section.container div.produto h1 {
+    padding: 10px;
+    font-size: 1.4em;
+    color: black;
+    font-family: monospace;
+
+}
+
+.faq-conteudo {
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: .875em;
+    line-height: 1.4em;
+    color: #222;
+    
+}
+
+
+
+section.container div.descricao-produto {
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.ativo {
+    height: 300px;
+}
+
+section.container div.descricao-produto.ativo {
+    height: 300px;
+    transition: .2s;
+}
+
+
